@@ -1,2 +1,2 @@
-# sergeiryzhkov1997.github.io
+# Сергей Рыжков
 Мой первый сайт
