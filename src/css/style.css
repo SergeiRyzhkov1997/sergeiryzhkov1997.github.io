@@ -22,7 +22,6 @@ nav {
     color: rgb(255, 255, 255);
     font-size: 30px;
     line-height: 60px;
-    padding-left: 25px;
     text-shadow: 15px 10px 50px rgb(255, 255, 255);
     font-family: 'FranklinGot', sans-serif;
     -webkit-animation: comming 2s ease;
@@ -37,7 +36,7 @@ main{
 
 .menu {
     float: left;
-    padding-left: 300px;
+
 
 }
 
@@ -45,7 +44,7 @@ main{
     float: left;
     font-size: 16px;
     color: white;
-    line-height: 60px;
+    line-height: 400%;
     margin-right: 40px;
     text-transform: uppercase;
     -webkit-animation: topshift 0.4s ease forwards;
@@ -67,19 +66,20 @@ main{
 
 .title__container {
     float: left;
-    margin: 150px 0px 0px 100px;
     color: #2c384a;
     text-align: center;
-    opacity: 0;
+    width: 100%;
+    /* opacity: 0;
     animation: titlemove 1s ease forwards;
-    animation-delay: 2.4s;
+    animation-delay: 2.4s; */
 }
 
 .title__container h1 {
-    font-size: 100px;
+    font-size: 72px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
     font-family: 'FranklinGot', sans-serif;
+
 }
 
 .title__container h4 {
@@ -107,10 +107,11 @@ main{
 }
 
 .menu li a{
-  transition: all 0.2s;
+  transition: all 0.1s;
   color: white;
   transform: scale(1);
   display: inline-block;
+  text-decoration: none;
 }
 
 .menu li a:visited{
@@ -182,4 +183,50 @@ main{
     margin-left: 100px;
   }
 }
+
+@media (min-width: 56px) and (max-width: 669px){
+  .nav {
+    width: 94%;
+    margin-right: 3%;
+  }
+}
+
+@media (min-width: 56px) and (max-width: 669px){
+  .menu {
+    width: 94%;
+    margin-right: 3%;
+  }
+}
+
+@media (min-width: 56px) and (max-width: 669px){
+  .main {
+    width: 94%;
+    margin-right: 3%; 
+  }
+}
+
+@media (min-width: 56px) and (max-width: 669px){
+  .title__container{
+    width: 94%;
+    margin-right: 3%; 
+  }
+}
+
+@media (min-width: 56px) and (max-width: 669px){
+  .title__container{
+    width: 94%;
+    margin-right: 3%; 
+  }
+}
+
+.white-btn:visited{
+  color:white;
+}
+
+
+
+
+
+
+
 
