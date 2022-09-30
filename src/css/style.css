@@ -36,7 +36,7 @@ main{
 
 .menu {
     float: left;
-
+    height: 60px;
 
 }
 
@@ -222,6 +222,20 @@ main{
 .white-btn:visited{
   color:white;
 }
+
+@media (max-width: 375px) {
+  .title__container {
+    font-size: 50px;
+  }
+  .title__container h4 {
+    font-size: 22px;
+  }
+}
+
+.dropdown {
+  line-height: 60px;
+}
+
 
 
 
